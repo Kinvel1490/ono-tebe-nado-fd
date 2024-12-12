@@ -111,7 +111,7 @@ html {
 .cover__title {
     font-size: 100px;
     font-weight: 700;
-    line-height: 115px;
+    line-height: 1.15;
     letter-spacing: 0.3em;
     font-style: normal;
     text-transform: uppercase;
@@ -121,10 +121,10 @@ html {
     width: 100%;
 }
 
-/* .cover__title>span+span {
+.cover__title>span+span {
     margin-top: 20px;
     margin-left: 30px;
-} */
+}
 
 .cover__f_line,
 .cover__s_line,
@@ -154,7 +154,7 @@ html {
 .cover__description-text {
     font-size: 22px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 1.272;
     text-transform: uppercase;
     word-spacing: 18.5px;
 }
@@ -168,7 +168,7 @@ html {
     color: white;
     text-transform: uppercase;
     font-size: 22px;
-    line-height: 25.83px;
+    line-height: 1.174;
 }
 /*Cover*/
 
@@ -182,7 +182,7 @@ html {
     font-family: Raleway;
     font-size: 40px;
     font-weight: 700;
-    line-height: 46.96px;
+    line-height: 1.174;
     margin: 0 0 27px 40px;
     text-transform: uppercase;
 }
@@ -215,7 +215,7 @@ html {
 .lots__card-list-item-article-title {
     font-size: 22px;
     font-weight: 700;
-    line-height: 26.4px;
+    line-height: 1.2;
     text-decoration-line: underline;
     text-decoration-style: solid;
     position: relative;
@@ -229,7 +229,7 @@ html {
     z-index: 1;
     font-size: 20px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.2;
 }
 
 #lots__card_1 {
@@ -248,7 +248,7 @@ html {
     margin: 30px 0 0 40px;
     font-size: 20px;
     font-weight: 400;
-    line-height: 23.48px;
+    line-height: 1.2;
     text-underline-position: under;
     display: inline-block;
 }
@@ -278,7 +278,7 @@ html {
     margin: 136px 0 100px 0;
     font-size: 40px;
     font-weight: 700;
-    line-height: 46.96px;
+    line-height: 1.174;
     text-transform: uppercase;
 }
 
@@ -289,7 +289,7 @@ html {
 .about__text {
     font-size: 20px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.2;
 }
 
 .about__text+.about__text {
@@ -314,7 +314,7 @@ html {
 .footer__menu {
     font-size: 18px;
     font-weight: 400;
-    line-height: 21.13px;
+    line-height: 1.174;
     text-align: center;
     margin-left: 5px;
 }
