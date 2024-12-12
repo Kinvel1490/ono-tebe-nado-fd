@@ -1,6 +1,9 @@
 /* место для вашего кода */
-
+li::marker {
+    --gap-right: 13px;
+}
 /*шапка*/
+
 html {
     scroll-behavior: smooth;
 }
@@ -26,6 +29,7 @@ html {
 .header__links-list {
     display: flex;
     gap: 0 13px;
+    margin-top: -5px;
 }
 
 .header__links-list-item {
@@ -35,13 +39,14 @@ html {
     font-weight: 400;
     line-height: 21.13px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 
 .header__links-list-item_no-bullit {
     list-style-type: none;
+}
+
+.header__links-list-item+.header__links-list-item>.header__link {
+    margin-left: -5px;
 }
 
 .header__link {
@@ -71,11 +76,14 @@ html {
 .header__address {
     max-width: 240px;
     justify-self: end;
+    margin-right: 37px;
+    margin-top: -4px;
 }
 
 .adress__phone_link,
 .adress__mail_link {
     text-underline-position: under;
+    letter-spacing: -.008em;
 }
 /*шапка*/
 
@@ -133,7 +141,7 @@ html {
     margin-right: -30px;
 }
 
-.cover__description  {
+.cover__description {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,7 +159,7 @@ html {
     word-spacing: 18.5px;
 }
 
-.cover__bet-button  {
+.cover__bet-button {
     width: 256px;
     height: 51px;
     cursor: pointer;
@@ -258,7 +266,7 @@ html {
     width: 240px;
     height: 240px;
     background-color: #000;
-    padding: 0 50px;
+    padding: 0 47px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -299,11 +307,16 @@ html {
     padding: 0 50px;
 }
 
+.footer__address_phone-link{
+    letter-spacing: -.008em;
+}
+
 .footer__menu {
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
     text-align: center;
+    margin-left: 5px;
 }
 
 .footer li {
@@ -314,6 +327,10 @@ html {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 48px;
+}
+
+.footer__link {
+    text-underline-position: under;
 }
 
 .social-links-list-item {
