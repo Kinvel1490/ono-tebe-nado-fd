@@ -121,10 +121,10 @@ html {
     width: 100%;
 }
 
-.cover__title>span+span {
+/* .cover__title>span+span {
     margin-top: 20px;
     margin-left: 30px;
-}
+} */
 
 .cover__f_line,
 .cover__s_line,
@@ -307,7 +307,7 @@ html {
     padding: 0 50px;
 }
 
-.footer__address_phone-link{
+.footer__address_phone-link {
     letter-spacing: -.008em;
 }
 
