@@ -233,15 +233,15 @@ html {
 }
 
 #lots__card_1 {
-    background-image: url(/images/card-lot-01.jpg);
+    background: url(/images/card-lot-01.jpg) center / cover no-repeat;
 }
 
 #lots__card_2 {
-    background-image: url(/images/card-lot-02.jpg);
+    background: url(/images/card-lot-02.jpg) center / cover no-repeat;
 }
 
 #lots__card_3 {
-    background-image: url(/images/card-lot-03.jpg);
+    background: url(/images/card-lot-03.jpg) center / cover no-repeat;
 }
 
 .lots__see-more-link {
