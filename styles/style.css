@@ -163,7 +163,7 @@ html {
     border: 1px solid white;
     color: white;
     text-transform: uppercase;
-    font-family: 'Railway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     font-size: 22px;
     line-height: 1.174;
@@ -177,7 +177,6 @@ html {
 }
 
 .lots__title {
-    font-family: Raleway;
     font-size: 40px;
     font-weight: 700;
     line-height: 1.174;
