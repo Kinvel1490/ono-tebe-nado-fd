@@ -1,24 +1,17 @@
 /* место для вашего кода */
-li::marker {
-    --gap-right: 13px;
-}
 /*шапка*/
 
 html {
     scroll-behavior: smooth;
 }
 
-.bg-white {
-    background-color: white;
-}
-
 .header {
-    height: 293px;
     width: calc(100% - 100px);
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
+    padding: 92px 0;
 }
 
 .header__menu-logo-wrapper {
@@ -55,10 +48,6 @@ html {
     text-decoration: none;
 }
 
-.link_active {
-    border: none !important;
-}
-
 .header__logo {
     display: block;
     width: 137px;
@@ -88,7 +77,6 @@ html {
 /*Main*/
 /*Cover*/
 .cover {
-    height: 757px;
     background: url(../images/cover.jpg) center / cover no-repeat;
     position: relative;
     display: flex;
@@ -145,6 +133,7 @@ html {
     position: relative;
     z-index: 1;
     width: 100%;
+    margin-top: 106px;
 }
 
 .cover__description-text {
@@ -192,7 +181,7 @@ html {
 
 .lots__card-list-item {
     list-style-type: none;
-    height: 596px;
+    min-height: 596px;
 }
 
 .lots__card-list-item-link {
@@ -207,6 +196,7 @@ html {
     justify-content: space-between;
     color: white;
     padding: 48px 40px;
+    background: center / cover no-repeat;
 }
 
 .lots__card-list-item-article-title {
@@ -230,15 +220,15 @@ html {
 }
 
 #lots__card_director {
-    background: url(../images/card-lot-01.jpg) center / cover no-repeat;
+    background-image: url(../images/card-lot-01.jpg);
 }
 
 #lots__card_book {
-    background: url(../images/card-lot-02.jpg) center / cover no-repeat;
+    background-image: url(../images/card-lot-02.jpg);
 }
 
 #lots__card_paint {
-    background: url(../images/card-lot-03.jpg) center / cover no-repeat;
+    background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots__see-more-link {
@@ -300,8 +290,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    height: 180px;
-    padding: 0 50px;
+    padding: 0px 50px 82px 50px;
 }
 
 .footer__menu {
@@ -323,7 +312,8 @@ html {
 }
 
 .footer__link {
-    text-underline-position: under;
+    text-decoration: none;
+    border-bottom: 1px solid black;
 }
 
 .social-links-list-item {
@@ -331,3 +321,7 @@ html {
     height: 48px;
 }
 /*footer*/
+
+.link_active {
+    border: none;
+}
